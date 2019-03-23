@@ -1,0 +1,69 @@
+---
+title: "Fake it till you make it"
+subtitle: "Andy waRhol inspired aRt in `xaringan`"
+author: "Matthew J. Oldach"
+date: "2019-03-07"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+    css: ["ninjutsu", "custom.css"]
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+class: center, middle
+background-image: url("https://i1.wp.com/www.solidcolore.com/3840/e4c6a7_background.jpg")
+
+> Because you don't have to live in a `theme_bw()` world
+
+---
+class: center, middle
+background-image: url("https://i1.wp.com/www.solidcolore.com/3840/e4c6a7_background.jpg")
+
+## Most examples show a simple side-by-side layout
+
+<img src=side-by-side.png height=480, width=1000>
+
+but so much more is possible with `CSS`
+---
+class: middle, center
+background-image: url("https://i1.wp.com/www.solidcolore.com/3840/e4c6a7_background.jpg")
+### Create an image grid with `ninjutsu` theme
+
+<img src=kunoichi-showcase.gif height=530, width=950>
+---
+class: middle, center
+background-image: url("https://i1.wp.com/www.solidcolore.com/3840/e4c6a7_background.jpg")
+
+Andy Warhols infamous `Che Guevara` painting is actually a forgery created by Gerard Malanga (who was in need of money) and sold to a gallery in Rome. 
+
+![](che-guevara.jpg)
+
+I thought it would be fun to create my own foRgery in `xaringan`
+
+---
+background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/01/29/241813/bce28d4f416a4554a1147162a81372b2-1000.jpg")
+class: center, split-four
+
+.column[
+<img src="Calcarine_R.gif">
+<img src="Insula_R.gif">
+<img src="Frontal_Mid_R.gif">
+]
+
+.column[
+<img src="Precentral_L.gif">
+<img src="Frontal_Sup_R.gif">
+<img src="Precentral_R.gif">
+]
+
+.column[
+<img src="Calcarine_L.gif">
+<img src="Insula_L.gif">
+<img src="Frontal_Mid_L.gif">
+]
